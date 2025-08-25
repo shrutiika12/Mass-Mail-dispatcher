@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Script from "next/script";
+let data: any;
+
 
 export default function Home() {
   const [validEmails, setValidEmails] = useState<string[][]>([]);

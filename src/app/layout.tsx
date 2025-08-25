@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head><script src="https://smtpjs.com/v3/smtp.js"></script></head>
+      <head><script src="https://smtpjs.com/v3/smtp.js" async></script></head>
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
